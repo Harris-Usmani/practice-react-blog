@@ -4,7 +4,7 @@ import BlogList from './BlogList'
 const Home = () => {
     
     const [blog, setBlog] = useState([
-        {title: 'Why did Microsoft not abort the abomination known as Windows Vista', content: 'Welcome to my blog, lorem ipsum.......', author:'Bill Gates', id: 1},
+        {title: 'Why did Microsoft not abort the abomination known as Windows Vista?', content: 'Welcome to my blog, lorem ipsum.......', author:'Bill Gates', id: 1},
         {title: 'Why did I divorce my wife? Hidden truth revealed.', content: 'Im rich and famous lorem ipsum....', author:'Jeff Bezos', id: 2},
         {title: 'Why were iPhone 4 users subjected to torture by updating their devices to iOS 7?', content: 'I made apple and now im rich lorem upsum....', author:'Steve Jobs', id: 3}
     ]);
@@ -14,7 +14,7 @@ const handleDelete = (id) =>{
 }
 
 useEffect(() => {
-    console.log('useEffect is working properly')
+    console.log('useEffect is working properly') 
 })
 
 

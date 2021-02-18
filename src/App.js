@@ -3,6 +3,7 @@ import Home from './Home'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Create from './create'
 import Footer from './footer'
+import GoogleBtn from './GoogleBtn'
 
 const App = () => {
     return (
