@@ -2,6 +2,7 @@ import Navbar from './NavBar'
 import Home from './Home'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Create from './create'
+import Footer from './footer'
 
 const App = () => {
     return (
@@ -17,7 +18,8 @@ const App = () => {
                         <Create />
                     </Route>
                 </Switch>
-                </div>    
+                </div>
+            <Footer />
         </div>
         </Router>
     );

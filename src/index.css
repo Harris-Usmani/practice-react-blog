@@ -46,3 +46,12 @@
   color: #f1356d;
   margin-bottom: 8px;
 }
+
+.footer {
+  padding: 20px;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+  text-align: center;
+}
