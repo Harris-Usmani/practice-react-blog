@@ -4,7 +4,7 @@ const BlogList = (props) => {
 
     return (
         <div className='blog-list'>
-        <h2>{ title }</h2>
+        <h2 style={{textAlign: 'center'}}>{ title }</h2>
         {blog.map((blog) => (
             <div className='Blog-Preview' key={blog.id}>
                 <h2> {blog.title} </h2>

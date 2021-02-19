@@ -6,20 +6,13 @@ const Home = () => {
     const [blog, setBlog] = useState(null);
     const [isLoadingBlogs, setIsLoadingBlogs] = useState(true)
     const [error, setError] = useState(null)
-//Depreciated blog delete functionality below. The prop for this functionality has been deleted.
-
-// const handleDelete = (id) =>{
-//     const newBlogs = blog.filter(blog => blog.id !== id)
-//         setBlog(newBlogs)
-// }
-
 
 //Error handling and API/Database fetch.
 useEffect(() => {
     fetch('http://localhost:8000/blogs')  //Enter your API/DB url here.
         .then(response => {
             if (!response.ok){            //If response is NOT ok then it throws an error message.
-                throw Error ('Could not fetch the data. Error!')        //Customize your error message here.
+                throw Error('Could not fetch the data. Error!')        //Customize your error message here.
             }
             return response.json()
         })

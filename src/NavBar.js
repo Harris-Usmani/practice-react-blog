@@ -5,7 +5,7 @@ import Popup from 'react-popup'
 const NavBar = () => {
     return (
         <nav className='navbar'>
-            <h1>Tech Celebrity Blog</h1>
+            <h1 className="websiteName"><a href="/">React Demo Blog</a></h1>
             <div className='links'>               
                 <Link to='/'>Home</Link>
                 <Link to='/create' style={{
