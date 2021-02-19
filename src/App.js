@@ -5,6 +5,7 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom' //Import
 import Create from './create'   //Imports the blog creation system.
 import Footer from './footer'   //Imports the footer for the site.
 import GoogleBtn from './GoogleBtn' //Imports Google Login Button.
+import BlogDetails from './BlogDetails'
 
 const App = () => {
     return (
@@ -18,6 +19,9 @@ const App = () => {
                     </Route>
                     <Route exact path='/create'>
                         <Create />
+                    </Route>
+                    <Route exact path='/blogs/:id'>
+                        <BlogDetails />
                     </Route>
                 </Switch>
                 </div>
