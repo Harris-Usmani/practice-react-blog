@@ -1,0 +1,22 @@
+{
+    "blogs": [
+      {
+        "title": "Why did Microsoft not abort the abomination known as Windows Vista?",
+        "body": "Welcome to my blog, lorem ipsum.......",
+        "author": "Bill Gates",
+        "id": 1
+      },
+      {
+        "title": "Why did I divorce my wife? Hidden truth revealed.",
+        "body": "Im rich and famous lorem ipsum....",
+        "author": "Jeff Bezos",
+        "id": 2
+      },
+      {
+        "title": "Why were iPhone 4 users subjected to torture by updating their devices to iOS 7?",
+        "body": "I made apple and now im rich lorem upsum....",
+        "author": "Steve Jobs",
+        "id": 3
+      }
+    ]
+  }
