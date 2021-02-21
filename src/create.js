@@ -1,10 +1,12 @@
 import { useState } from "react";
+import { useHistory } from 'react-router-dom'
 
 const Create = () => {
     const [title, setTitle] = useState('')
     const [body, setBody] = useState('')
     const [author, setAuthor] = useState('Steve Jobs')
     const [isLoadingBlogs, setIsLoadingBlogs] = useState(false)
+    const history = useHistory()
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -19,6 +21,7 @@ const Create = () => {
         }).then (() => {        //Slapping on a promise because this is asynchronus. Can be useful for debugging on real world projects.
             console.log('New blog has been posted successfully.')
             setIsLoadingBlogs(false)
+            history.push('/')  //Redirects the user back to the homepage once the blog is published.
         })
     }
 
