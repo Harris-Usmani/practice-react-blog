@@ -4,7 +4,6 @@ import Home from './Home'       //Imports the blogs for the homepage.
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom' //Imports React Router.
 import Create from './create'   //Imports the blog creation system.
 import Footer from './footer'   //Imports the footer for the site.
-import GoogleBtn from './GoogleBtn' //Imports Google Login Button.
 import BlogDetails from './BlogDetails'
 import NotFound from './404NotFound'
 
