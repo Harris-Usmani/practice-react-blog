@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom' 
-import GoogleBtn from './GoogleBtn'
 import Popup from 'react-popup'
 
 const NavBar = () => {
