@@ -13,13 +13,6 @@ const NavBar = () => {
                     backgroundColor: '#f1356d',
                     border: '8px'
                 }}>New Blog</Link>
-                {/* <button onClick={() => GoogleBtn()} style={{
-                    color: 'white',
-                    backgroundColor: '#f1356d',
-                    border: '8px',
-                    marginLeft: '16px',
-                    borderRadius: '6px 6px 6px 6px'
-                }}>Login</button> */}
             </div>
             
         </nav>

@@ -6,6 +6,7 @@ import Create from './create'   //Imports the blog creation system.
 import Footer from './footer'   //Imports the footer for the site.
 import GoogleBtn from './GoogleBtn' //Imports Google Login Button.
 import BlogDetails from './BlogDetails'
+import NotFound from './404NotFound'
 
 const App = () => {
     return (
@@ -22,6 +23,9 @@ const App = () => {
                     </Route>
                     <Route exact path='/blogs/:id'>
                         <BlogDetails />
+                    </Route>
+                    <Route path = '*'> {/* If the webpage loaded is unknown, it shows a 404 page. */}
+                        <NotFound />
                     </Route>
                 </Switch>
                 </div>
