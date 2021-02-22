@@ -19,22 +19,10 @@
       "id": 3
     },
     {
-      "title": "Hello Amigos!",
-      "body": "I AM IN HAVANA!",
-      "author": "Bill Gates",
-      "id": 4
-    },
-    {
       "title": "Nasa is lying to you...",
       "body": "Trust me they are.....",
       "author": "Jeff Bezos",
       "id": 5
-    },
-    {
-      "title": "test",
-      "body": "asdasd",
-      "author": "Steve Jobs",
-      "id": 6
     }
   ]
 }
